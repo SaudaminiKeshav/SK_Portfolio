@@ -1,0 +1,47 @@
+
+html {
+    scroll-behavior: smooth;
+  }
+
+/* Header bg color  */
+header{
+    background-color: transparent;
+}
+
+/* Margin spacing below contact container  */
+.contactFormContainer{
+    margin-bottom: 300px;
+    margin-left: 20px;
+}
+
+/* ContactContainerStyling  */
+.contactContainer{
+    background-color: black;
+    color: white;
+}
+
+/* Footer container style  */
+.footerContainer{
+    min-height: 50px;
+    background-color: black;
+    padding-bottom: 10px;
+    padding-top: 5px;
+    text-align: center;
+    color: white;
+    margin-top: -100px;
+    position: fixed;
+    left: 0;
+    bottom: -5px;
+    width: 100%;
+}
+
+/* Footer content style  */
+.footer-body{
+    padding: 1px;
+    margin-top: 5px;
+}
+
+/* ContactLink color  */
+.contactLink{
+    color: #F14046;
+}

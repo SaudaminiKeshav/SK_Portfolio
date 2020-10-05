@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="Assets\Images\favicon-32x32.png">
+    <title>Saudamini Keshav|Web/Mobile Developer</title>
+
+    <!-- CSS File link -->
+    <link rel="stylesheet" type="text/css" href="portfolio-style.css">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+
+    <!-- Region Navbar Header -->
+    <header class="site-header bg-black border-bottom border-dark">
+        <div class=" navContainer">
+            <nav class="navbar main-nav  navbar-expand-lg navbar-dark" style="background-color: black;"
+                aria-label="Main navigation">
+                <a href="index.html" class="navbar-brand "
+                    style="color: white;  text-shadow:1px -1px 0 white;
+                 font-size:xx-large; outline-color: cc2626;text-shadow: -1px 1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;font: outline;text-decoration-style: solid; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;">SK
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse text-uppercase" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a href="index.html" class="nav-link"
+                                style="color: white;font-weight:bolder;font-size:large;text-decoration-style: solid;">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="portfolio_new_design.html" class="nav-link"
+                                style="color: #cc2626;font-weight:bolder;font-size:large;font: outline;text-decoration-style: solid;">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="about-me.html" class="nav-link"
+                                style="color: white;font-weight:bolder;font-size:large;outline-color: cc2626;font: outline;text-decoration-style: solid;">About
+                                Me</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="contact.html" class="nav-link"
+                                style="color: white;font-weight:bolder;font-size:large;outline-color: cc2626;font: outline;text-decoration-style: solid;">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <!-- End region  -->
+
+    <!-- Region whitespace  -->
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-15"></div>
+        </div>
+    </div>
+    <!-- End region  -->
+
+    <!-- Region page title  -->
+    <br>
+    <div class="row justify-content-center">
+        <div class="col-lg-8">
+            <h1 class="display-4 mb-4">Projects</h1>
+            <hr>
+        </div>
+    </div>
+    <!-- End region  -->
+    <div class="portfolioContainer w3-container">
+
+        <div class="row" id="virtual-cookbook">
+            <div class="card col-lg-5 col-xs-12 column container zoom vc" style="width:90%; height:120%">
+                <img src="Assets\Images\Capture.PNG" alt="Virtual Cookbook" style="width:100%; height:120%"
+                    class="shadow-lg rounded scale scale-up-hover-2 page-preview modal-content"
+                    onclick="document.getElementById('modal01').style.display='block'">
+                <div class="overlay">Virtual Cookbook<br> <a class="button " href="#vrtbook"
+                        style="color: white; padding-left:15px;padding-right:15px;">LEARN MORE</a>
+                </div>
+
+
+            </div>
+
+            <div class="card col-lg-5 col-xs-12 column container zoom" style=" width:90%; height:120%">
+
+                <img src="Assets\Images\Quiz_Question_Page.png" alt="Code Quiz" style="width:100%; height:120%"
+                    class="shadow-lg rounded scale scale-up-hover-2 page-preview modal-content"
+                    onclick="document.getElementById('modal02').style.display='block'">
+                <div class="overlay">Code Quiz<br> <a class="button " href="#codequiz"
+                        style="color: white; padding-left:15px;padding-right:15px;">LEARN MORE</a></div>
+            </div>
+        </div>
+
+        <br>
+
+        <div class="row " id="password-generator">
+            <div class="card col-lg-5 col-xs-12 column container zoom"
+                style="margin-bottom: 10px;width:90%;  height:120%">
+
+                <img src="Assets\Images\WithInput-Web.png" alt="Password Generator" style="width:100%; height:120%"
+                    class="shadow-lg rounded scale scale-up-hover-2 page-preview modal-content"
+                    onclick="document.getElementById('modal03').style.display='block'">
+                <div class="overlay">Password Generator<br> <a class="button " href="#passwordgenerator"
+                        style="color: white; padding-left:15px;padding-right:15px;">LEARN MORE</a></div>
+            </div>
+            <div class="card col-lg-5 col-xs-12 column container zoom"
+                style=" margin-bottom: 10px; width:90%; height:100%">
+
+                <img src="Assets\Images\workday-scheduler.PNG" alt="Work Day Scheduler" style="width:100%; height:100%"
+                    class="shadow-lg rounded scale scale-up-hover-2 page-preview modal-content"
+                    onclick="document.getElementById('modal04').style.display='block'">
+                <div class="overlay">Workday Scheduler<br> <a class="button " href="#workdayscheduler"
+                        style="color: white; padding-left:15px;padding-right:15px;">LEARN MORE</a></div>
+            </div>
+        </div>
+        <div class="project-details">
+            <div id="vrtbook">
+                <hr>
+                <br>
+                <img src="Assets\Images\Capture.PNG" alt="Virtual Cookbook" width="50%" height="auto"
+                    style="float: right;">
+                <h1>Virtual Cookbook</h1>
+                <br>
+                <h5> Website Link - <a href="https://jandrews16.github.io/virtual-cookbook/"
+                        style="font-family: Roboto Slab, serif; color: black;">Virtual Cookbook</a></h5>
+                <h5> GitHub repository Link - <a href="https://github.com/SaudaminiKeshav/virtual-cookbook"
+                        style="font-family: Roboto Slab, serif; color: black;">Virtual Cookbook</a></h5>
+                <h5>Description -</h5>
+                <p style="width: 50%;">
+                    This application allows users to create their own virtual cookbook
+                    as well as find recipes based on their desired ingredients. Key features the ability
+                    to save personal recipes on different devices as well as search and save recipes
+                    based on specific ingredients.</p>
+                <br>
+            </div>
+
+            <div id="codequiz" style="padding-top: 10%;">
+                <hr>
+                <br>
+                <img src="Assets\Images\Quiz_Question_Page.png" alt="Code Quiz" width="50%" height="auto"
+                    style="float: right;">
+                <h1>Code Quiz</h1>
+                <br>
+                <h5> Website Link - <a href="https://saudaminikeshav.github.io/Code-Quiz/"
+                        style="font-family: Roboto Slab, serif; color: black;">Code Quiz</a></h5>
+                <h5> GitHub repository Link - <a href="https://github.com/SaudaminiKeshav/Code-Quiz"
+                        style="font-family: Roboto Slab, serif; color: black;">Code Quiz</a></h5>
+                <h5>Description -</h5>
+                <p style="width: 50%;">
+                    This web application is timed code quiz with multiple-choice
+                    questions and a easy to understand code quiz review section. This app will run
+                    in the browser and feature dynamically updated HTML and CSS powered by your
+                    JavaScript code. It will also feature a clean and polished user interface and be
+                    responsive, ensuring that it adapts to multiple screen sizes.
+                </p>
+                <br>
+            </div>
+
+            <div id="passwordgenerator" style="padding-top: 10%;">
+                <hr>
+                <br>
+                <img src="Assets\Images\WithInput-Web.png" alt="Password Generator" width="50%" height="auto"
+                    style="float: right;">
+                <h1>Password Generator</h1>
+                <br>
+                <h5> Website Link - <a href="https://saudaminikeshav.github.io/Password-Generator/"
+                        style="font-family: Roboto Slab, serif; color: black;">Password Generator</a></h5>
+                <h5> GitHub repository Link - <a href="https://github.com/SaudaminiKeshav/Password-Generator"
+                        style="font-family: Roboto Slab, serif; color: black;">Password Generator</a></h5>
+                <h5>Description -</h5>
+                <p style="width: 50%;">
+                    This web application helps to generate a random password based
+                    on
+                    user-selected criteria. This app will run in the browser and feature dynamically updated
+                    HTML and CSS powered by your JavaScript code. It will also feature a clean and polished user
+                    interface and be responsive, ensuring that it adapts to multiple screen sizes.
+                </p>
+                <br>
+            </div>
+
+            <div id="workdayscheduler" style="padding-top: 10%;">
+                <hr>
+                <br>
+                <img src="Assets\Images\workday-scheduler.PNG" alt="Work Day Scheduler" width="50%" height="auto"
+                    style="float: right;">
+                <h1>Workday Scheduler</h1>
+                <br>
+                <h5> Website Link - <a href="https://saudaminikeshav.github.io/Work-Day-Scheduler/"
+                        style="font-family: Roboto Slab, serif; color: black;">Workday Scheduler</a></h5>
+                <h5> GitHub repository Link - <a href="https://github.com/SaudaminiKeshav/Work-Day-Scheduler"
+                        style="font-family: Roboto Slab, serif; color: black;">Workday Scheduler</a></h5>
+                <h5>Description -</h5>
+                <p style="width: 50%;">
+                    This is a simple calendar application that allows the user to
+                    save events for each hour of the day. This app will run in the browser and feature
+                    dynamically updated HTML and CSS powered by jQuery.
+
+                    You'll need to use the Moment.js library to work with date and time. Be sure to read the
+                    documentation carefully and concentrate on using Moment.js in the browser.
+                </p>
+                <br>
+            </div>
+        </div>
+
+
+        <div id="modal01" class="w3-modal" onclick="this.style.display='none'">
+            <span class="w3-button w3-hover-red w3-xlarge w3-display-topright">&times;</span>
+            <div class="w3-modal-content w3-animate-zoom">
+                <video width="100%" height="80%" controls autoplay>
+                    <source src="Assets\Images\Virtual Cookbook - Google Chrome 2020-07-29 21-03-48.mp4"
+                        type="video/mp4">
+                    <source src="Assets\Images\Virtual Cookbook - Google Chrome 2020-07-29 21-03-48.ogg"
+                        type="video/ogg">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+        </div>
+        <div id="modal02" class="w3-modal" onclick="this.style.display='none'">
+            <span class="w3-button w3-hover-red w3-xlarge w3-display-topright">&times;</span>
+            <div class="w3-modal-content w3-animate-zoom">
+                <video width="100%" height="100%" controls autoplay>
+                    <source src="Assets\Images\Code Quiz - Video_Trim.mp4" type="video/mp4">
+                    <source src="Assets\Images\Code Quiz - Video_Trim.ogg" type="video/ogg">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+        </div>
+        <div id="modal03" class="w3-modal" onclick="this.style.display='none'">
+            <span class="w3-button w3-hover-red w3-xlarge w3-display-topright">&times;</span>
+            <div class="w3-modal-content w3-animate-zoom">
+                <video width="100%" height="100%" controls autoplay>
+                    <source src="Assets\Images\Password Generator.mp4" type="video/mp4">
+                    <source src="Assets\Images\Password Generator.ogg" type="video/ogg">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+        </div>
+
+        <div id="modal04" class="w3-modal" onclick="this.style.display='none'">
+            <span class="w3-button w3-hover-red w3-xlarge w3-display-topright">&times;</span>
+            <div class="w3-modal-content w3-animate-zoom">
+                <video width="100%" height="100%" controls autoplay>
+                    <source src="Assets\Images\Work Day Scheduler.mp4" type="video/mp4">
+                    <source src="Assets\Images\Work Day Scheduler.ogg" type="video/ogg">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+        </div>
+        <!-- End region  -->
+
+
+        <!-- Region Footer  -->
+        <footer>
+            <div class="footerContainer">
+                <div class="row row-cols-2 col-lg-8 col-xs-3">
+                    <div class="footer-body">
+                        <h5 class="card-footer-title" style="text-align: start; margin-left: 50px;"><a
+                                href="https://github.com/SaudaminiKeshav" class="contactLink"
+                                style="margin-right: 20px;"><img src="Assets\Images\GitHub Icon.png"
+                                    style="width: 5%; height: auto;"></a>
+                            <a href="mailto:saudamini.keshav@gmail.com" class="contactLink"
+                                style="margin-right: 20px;"><img src="Assets\Images\GMail Icon.png"
+                                    style="width: 6%; height: auto;"></a>
+                            <a href="https://www.linkedin.com/in/saudamini-keshav-b56a29178/" class="contactLink"><img
+                                    src="Assets\Images\LinkedIn.png" style="width: 5%; height: auto;"></a>
+                        </h5>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- End region  -->
+        <script src="portfolio-script.js"></script>
+</body>
+
+</html>

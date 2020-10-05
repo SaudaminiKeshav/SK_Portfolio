@@ -1,0 +1,326 @@
+
+html {
+    scroll-behavior: smooth;
+  }
+
+/* Header bg color  */
+header{
+    background-color: transparent;
+}
+
+/* Margin for project cards content  */
+
+
+
+.row{
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+/* Addition margin below projects  */
+.portfolioContainer{
+    margin-bottom: 300px;
+    margin-left: 6%;
+    margin-right:5%;
+}
+.card {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.5);
+    transition: 2s;
+    width: 40%;
+  }
+  
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+body{
+    margin-bottom: 200px;
+  
+    margin-right: 10px;
+    margin-left: 20px;
+}
+/* addition spacing between footer and page  */
+footer{
+    margin-top: 200px;
+}
+
+/* Footer container style  */
+.footerContainer{
+    min-height: 50px;
+    background-color: black;
+    padding-bottom: 10px;
+    padding-top: 5px;
+    text-align: center;
+    color: black;
+    margin-top: -500px;
+    position: fixed;
+    left: 0;
+    bottom: -5px;
+    width: 100%;
+}
+
+/* Footer content style  */
+.footer-body{
+    padding: 1px;
+    margin-top: 5px;
+}
+
+/* ContactLink color  */
+.contactLink{
+    color: #F14046;
+}
+
+/* Carousel styling start */
+.carousel-inner img {
+   
+    width: 100%;
+    height: 100%;
+  }
+
+  .carousel{
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+/* Carousel styling end  */
+
+
+
+
+.projects{
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    object-fit: cover;
+}
+
+/* background: url('Assets\\clear_sky_gif.gif')no-repeat center center fixed; */
+
+
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    font-family: Arial;
+  }
+  
+  /* The grid: Four equal columns that floats next to each other */
+  .column {
+    float: left;
+    width: 25%;
+    padding: 10px;
+  }
+  
+  /* Style the images inside the grid */
+  .column img {
+    opacity: 1; 
+    cursor: pointer; 
+  }
+  
+  .column img:hover {
+    opacity: 0.8;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* The expanding image container */
+  .container {
+    position: relative;
+    display: none;
+    width: 50%;
+    max-width: 300px;
+  }
+  
+  /* Expanding image text */
+  #imgtext {
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    color: white;
+    font-size: 20px;
+  }
+  
+  /* Closable button inside the expanded image */
+  .closebtn {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    color: white;
+    font-size: 35px;
+    cursor: pointer;
+  }
+
+  .image {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  .overlay {
+    position: absolute; 
+    bottom: 0; 
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5); /* Black see-through */
+    width: 95%;
+    transition: .5s ease;
+    opacity:0;
+    color: white;
+    font-weight: bolder;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    padding: 20px;
+    text-align: center;
+  }
+  .button{
+    color: white;
+    opacity: 0;
+    text-align: center;
+    transition: all 0.3s ease-in-out;
+    z-index: 2;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: transparent;
+    border: 2px solid #F14046;
+    font-size: 10pt;
+    margin: 0 auto;
+    padding: 7px 0;
+    width: 170px;
+  }
+  .container:hover .button{
+    color: white;
+    opacity: 1;
+    text-align: center;
+    transition: all 0.3s ease-in-out;
+    z-index: 2;
+  }
+  .container:hover .overlay {
+    opacity: 1;
+  }
+  [class*=shadow] {
+    transition: all .2s ease;
+}
+.shadow-lg {
+    box-shadow: 0 1rem 3rem rgba(13,27,72,.175)!important;
+}
+.rounded {
+    border-radius: .45rem!important;
+}
+img {
+    max-width: 100%;
+    color: #c33c54;
+    text-decoration: none;
+    background-color: transparent;
+}
+img {
+    vertical-align: middle;
+    border-style: none;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+.text-action, img {
+    color: #c33c54;
+    font-weight: 400;
+    transition: all .2s ease;
+}
+.page-preview {
+    display: block;
+    position: relative;
+}
+img:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: underline;
+}
+a:hover img {
+    transform: scale(1.5);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.zoom {
+    padding: 50px;
+    background-color: green;
+    transition: transform .2s; /* Animation */
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+  }
+  
+  .zoom:hover {
+    transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  }
+
+  #myImg {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  #myImg:hover {opacity: 0.7;}
+  
+  /* The Modal (background) */
+  .modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+  }
+  
+  /* Modal Content (image) */
+  .modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+  }
+  
+  /* Caption of Modal Image */
+  #caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+  }
+  
+  /* Add Animation */
+  .modal-content, #caption {  
+    animation-name: zoom;
+    animation-duration: 0.6s;
+  }
+  
+  @keyframes zoom {
+    from {transform: scale(0.1)} 
+    to {transform: scale(1)}
+  }
+  
+  
+  /* 100% Image Width on Smaller Screens */
+  @media only screen and (max-width: 700px){
+    .modal-content {
+      width: 100%;
+    }
+  }
+
+.project-details{
+margin-top: 10%;
+padding-top: 10px;
+}
